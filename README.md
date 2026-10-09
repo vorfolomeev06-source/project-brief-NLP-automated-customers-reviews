@@ -96,6 +96,22 @@ Users can enter a product review and receive a prediction:
 
 https://huggingface.co/spaces/vorfolomeev06/amazon-review-sentiment
 
+## How to Run
+
+1. Download the notebook from this repository.
+2. Open it in Google Colab.
+3. Download the Datafiniti Amazon Consumer Reviews dataset from Kaggle.
+4. Update the dataset path in the notebook.
+5. Install the required libraries and run the notebook cells in order.
+
+The deployed sentiment application can also be tested directly using the Hugging Face link above.
+
+## Project Structure
+
+- NLP_Automated_Customer_Reviews_Project.ipynb — main notebook with code and results
+- README.md — project documentation
+- .gitignore — excludes datasets and unnecessary files
+
 ## Main Limitations
 
 - Strong class imbalance
@@ -114,5 +130,9 @@ Possible improvements include:
 - improving review sampling for summarization
 - fine-tuning a generative model for category summaries
 
+## References
 
-https://huggingface.co/spaces/vorfolomeev06/amazon-review-sentiment
+- Datafiniti Amazon Consumer Reviews dataset — Kaggle
+- scikit-learn — TF-IDF, LinearSVC and KMeans
+- Hugging Face — DistilBART summarization model
+- Hugging Face Spaces — application deployment
